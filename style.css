@@ -2,12 +2,13 @@
 
 *  {
     margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(135deg, #18005F 0%, #2F005C 100%);
+    background: linear-gradient(90deg, #18005F 0%, #2F005C 100%);
 }
 
 .main {
@@ -50,7 +51,9 @@ body {
 
 .login-card {
     width: 50%;
-    padding: 30px;
+    min-width: 320px;
+    max-height: 580px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,19 +102,20 @@ body {
     font-weight: 500;
 }
 
-.login-card-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px 20px;
-}
-
-.login-card-links > a {
+.login-card-link {
     font-size: 11pt;
     text-decoration: underline;
 }
 
-.login-card-links > a:active {
+.login-card-link:link {
+    color: #9d018d
+}
+
+.login-card-link:visited {
+    color: #9d018d
+}
+
+.login-card-link:active {
     color: #5E0055;
 }
 
@@ -154,13 +158,12 @@ body {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 950px) {
-    .login-card {
-        width: 85%;
-    }
+.login-card > p {
+    font-size: 11pt;
+    color: #d1a0ff;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     .main {
         flex-direction: column;
     }
@@ -180,10 +183,11 @@ body {
     }
 
     .main-left-image {
-        width: 70vw;
+        width: 60vw;
     }
 
     .login-card {
-        width: 90%;
+        width: 85%;
+        margin-bottom: 20px;
     }
 }
