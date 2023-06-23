@@ -1,9 +1,18 @@
-# tela-login-html-css
+<p align="center">
+  <img src="https://github.com/aridanpantoja/tela-login-html-css/blob/main/screenshot.png" alt="Screenshot Modelo Tela Login" width="500">
+</p>
 
-## Tela de Login criada com HTML e CSS
-- Resultado da página: <https://tela-login-html-css.vercel.app/>
-- Principal referência: <https://youtu.be/69-WfrVBli8>
-- Imagens usadas: <https://storyset.com/>
-- Ícones usados: <https://fontawesome.com/>
+<p align="center">
+  Tela de Login criada com HTML e CSS
+  <br>
+  <br>
+  <a href="https://tela-login-html-css.vercel.app/"><strong>Ver deploy na Vercel »</strong></a>
+  <br>
+  <br>
+</p>
+<div align="center" style="display: inline_block">
+  <img align="center" alt="tech-html5" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg">
+  &nbsp;
+  <img align="center" alt="tech-css3" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg">
+</div>
 
-Autor: **Aridan**
